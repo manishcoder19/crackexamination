@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<title>Team/CrackExamination</title>
+    <link rel="icon" href="title.png" type="images/png" sizes="16*16">
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<link rel="stylesheet" href="animate.min.css">
+</head>
+<style>
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css';
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css';
+@import 'http://fonts.googleapis.com/css?family=Raleway:100,600';
+@import 'http://fonts.googleapis.com/css?family=Open+Sans:300';
+html,
+body {
+background-image:url('t1.jpg'); 
+opacity:0.9;
+fliter-alpha(opacity=90);
+  width: 100%;
+  height: 100%;
+  
+ 
+}
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #999;
+background-color:#FAF7FF;
+  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 20px 0;
+  text-transform: none;
+  color: rgba(254, 82, 76, 1);
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1.5;
+     
+}
+
+a:link,
+a:active,
+a:visited{
+  color:rgba(255,255,255,1);
+}
+
+a:hover{
+  color:rgba(255,255,255,0.6);
+}
+
+.gray {
+  color: #a5a5a5;
+}
+
+.team{
+  margin-left:40px;
+}
+
+.team-member {
+  margin-left: 15px ;
+  padding: 0;
+ 
+}
+
+.team-member figure {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  margin-left:10px;
+}
+
+.team-member figure img {
+  min-width: 100%;
+}
+
+.team-member figcaption p {
+  font-size: 16px;
+}
+
+.team-member figcaption ul {
+  list-style: none;
+  margin:50px;
+  padding: 0;
+}
+
+.team-member figcaption ul {
+  visibility: visible;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.team-member figcaption ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.team-member h4 {
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+.team-member figcaption {
+  padding: 50px;
+  color: transparent;
+  background-color: transparent;
+  position: absolute;
+  z-index: 996;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-member figure:hover figcaption {
+  visibility: visible;
+  color: #fff;
+  background:black;
+  opacity:0.6;
+  filter:alpha(opacity=60);
+  /* Primary color, can be changed via colors.css */
+  
+  height: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-member figure:hover figcaption ul li a:hover {
+  color: rgba(49, 49, 49, .97);
+}
+
+.team-member figure img {
+  -webkit-transform: scale(1) rotate(0) translateY(0);
+  -moz-transform: scale(1) rotate(0) translateY(0);
+  -o-transform: scale(1) rotate(0) translateY(0);
+  -ms-transform: scale(1) rotate(0) translateY(0);
+  transform: scale(1) rotate(0) translateY(0);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.team-member figure:hover img {
+  -webkit-transform: scale(1.1) rotate(1deg) translateY(12px);
+  -moz-transform: scale(1.1) rotate(1deg) translateY(12px);
+  -o-transform: scale(1.1) rotate(1deg) translateY(12px);
+  -ms-transform: scale(1.1) rotate(1deg) translateY(12px);
+  transform: scale(1.1) rotate(1deg) translateY(12px);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.team5{
+font-size:20px;
+ color:white;
+}
+
+</style>
+<body>
+<!-- Our team Section -->
+<section id="team" class="team" content-section">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-12">
+        <em><h2 style=color:white; class="animated shake">Our Team</h2></em>
+       <h3 class="caption gray">Meet the people who make awesome stuffs</h3>
+      </div><!-- /.col-md-12 -->
+
+      <div class="container">
+        <div class="row">
+
+
+          <div class="col-md-5">
+            <div class="team-member">
+              <figure>
+                <img src="manish.jpg" alt="" class="img-responsive">
+                <figcaption>
+                  <p>I have no Special talents.I'm only passionately curious.</p>
+                  <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=100007755522740"><i class="fa fa-facebook fa-2x"></i></a></li>
+                    <li><a href="https://www.instagram.com/im_manishcse/"><i class="fa fa-instagram fa-2x"></i></a></li>
+                    
+                  </ul>
+                </figcaption>
+              </figure>
+              <h4 style=color:white;>Manish Gupta</h4>
+              <p style=color:white;>Web Developer</p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-4 -->
+
+          <div class="col-md-5">
+            <div class="team-member">
+              <figure>
+                <img src="nitin2.jpg" alt="" class="img-responsive">
+                <figcaption>
+                  <p>Never stop learning,Because life never stops teaching...</p>
+                  <ul>
+                    <li><a href="http://www.facebook.com/profile.php?id=100003979405830"><i class="fa fa-facebook fa-2x"></i></a></li>
+                    <li><a href="http://www.instagram.com/nitingoyal445/"><i class="fa fa-instagram fa-2x"></i></a></li>
+                   
+                  </ul>
+                </figcaption>
+              </figure>
+              <h4 style=color:white;>Nitin Goyal</h4>
+              <p style=color:white;>Web Developer</p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-4 -->
+
+          
+
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+
+    </div><!-- /.row -->
+  </div><!-- /.container -->
+</section><!-- /.our-team -->
+<center><p class="team5">Special Thanks to Uttam Bhagaur Sir...!!</p></center>
+</body>
+</html>
